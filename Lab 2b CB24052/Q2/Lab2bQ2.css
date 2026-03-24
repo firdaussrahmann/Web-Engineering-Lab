@@ -1,0 +1,25 @@
+body {
+    background-image: url('img/bg-header.jpg'), url('img/bg-footer.jpg');
+    background-position: top center, bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 180px 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2b7a1d;
+}
+
+.blue-text {
+    color: #333399;
+}
+
+.bold-justified {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.capitalized-text {
+    text-transform: capitalize;
+}

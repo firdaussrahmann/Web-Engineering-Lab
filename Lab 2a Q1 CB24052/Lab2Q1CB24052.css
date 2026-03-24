@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /*cite: 135*/
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: #a2c94c;
+    color: white;
+}
+
+.banner-container {
+    background: url('img/fk4.png') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.overlay-content {
+    background-color: rgba(60, 110, 80, 0.7);
+    padding: 40px;
+}
+
+hr {
+    border: 0.5px solid white;
+}
+
+.stat-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.programs-section {
+    background-color: #66c2a5;
+    padding: 20px;
+}
+
+.programs-section ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}

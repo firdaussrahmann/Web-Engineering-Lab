@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Form">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Muhammad Firdaus">   
+    </head>
+    <body>
+    <center><h1>Your Personal Details</h1></center>
+    
+    <form>
+        <table border="0" cellpadding="10">
+            <tr>
+                <td><b>Your name:</b></td>
+                <td><input type="text" name="name" size="50"></td>
+            </tr>
+            <tr>
+                <td><b>Student number:</b></td>
+                <td><input type="text" name="student_no"></td>
+            </tr>
+            <tr>
+                <td><b>Program:</b></td>
+                <td>
+                    <select name="program">
+                        <option>Bachelor of Computer Science (Software Engineering) with Honours</option>
+                        <option>Diploma in Computer Science</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><b>Hobby:</b></td>
+                <td>
+                    <input type="checkbox" name="hobby" value="reading"> Reading
+                    <input type="checkbox" name="hobby" value="outdoor"> Outdoor Activities
+                    <input type="checkbox" name="hobby" value="tv"> Watching TV
+                    <input type="checkbox" name="hobby" value="sleeping"> Sleeping
+                </td>
+            </tr>
+            <tr>
+                <td><b>Comments:</b></td>
+                <td><textarea name="comments" rows="4" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

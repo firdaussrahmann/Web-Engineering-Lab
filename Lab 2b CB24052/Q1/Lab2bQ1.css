@@ -1,0 +1,16 @@
+body {
+    background-image: url('img/bg-header.jpg'), url('img/bg-footer.jpg');
+    background-position: top center, bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 220px 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #2b7a1d;
+    font-size: 32px;
+    margin-bottom: 20px;
+}

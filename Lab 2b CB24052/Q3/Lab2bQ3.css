@@ -1,0 +1,32 @@
+body {
+    background-image: url('img/bg-header.jpg'), url('img/bg-footer.jpg');
+    background-position: top center, bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 200px 50px;
+}
+
+h1 {
+    color: #2b7a1d;
+    border: 5px dotted red; 
+    display: inline-block;
+}
+
+.dotted-box {
+    border: 5px dotted red; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.solid-box {
+    border: 1px solid black; 
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dashed-box {
+    border: 2px dashed blue; 
+    border-radius: 25px;
+    padding: 20px;
+}
