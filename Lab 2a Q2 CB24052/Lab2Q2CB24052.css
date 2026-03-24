@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #a4c639;
+    width: 800px;
+}
+
+h3 {
+    text-align: center;
+    color: #a4c639;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #a4c639;
+    padding: 8px;
+    text-align: left;
+}
+
+.section-header {
+    background-color: #a4c639;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.subheader {
+    background-color: #e6f3b0;
+    font-weight: bold;
+}
+
+.label {
+    background-color: #e6f3b0;
+    font-weight: bold;
+    width: 100px;
+}
+
+.photo-cell {
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.photo-cell img {
+    width: 150px;
+    border: 1px solid #ccc;
+}
+
+.hobby-list ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.hobby-list li::before {
+    content: "❄ ";
+    color: #4a90e2;
+    margin-right: 10px;
+}
