@@ -1,2 +1,2 @@
 # Web-Engineering-Lab
-All BCS2243 lab exercises are uploaded here.
+BCS2243 lab exercises
